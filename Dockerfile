@@ -1,4 +1,4 @@
-FROM abernix/meteord:base 
+FROM jshimko/meteor-launchpad:latest
 RUN apt-get update
 RUN apt-get install wget -y
 RUN apt-get install apt-utils -y
