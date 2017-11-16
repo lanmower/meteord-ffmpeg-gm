@@ -1,4 +1,4 @@
-FROM abernix/meteord:base:node-4-base
+FROM abernix/meteord:node-4-base
 RUN apt-get update
 RUN apt-get install wget -y
 RUN apt-get install apt-utils -y
